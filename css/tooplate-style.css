@@ -111,14 +111,24 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 320px;
+  min-width: 350px;
   position: relative;
   min-height: 60px
 }
 
 .animated-item {
   color: #ffc200;
+  font-size: 38px;
+  line-height: inherit;
+  display: block;
+  opacity: 0;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
   white-space: nowrap;
+  animation: BottomTotop 6s linear infinite 0s;
 }
 
 .animated-item {
@@ -571,6 +581,7 @@ b, strong {
     vertical-align: top;
   }
 }
+
 
 
 
