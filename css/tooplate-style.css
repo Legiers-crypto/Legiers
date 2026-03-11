@@ -111,9 +111,8 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 350px;
+  min-width: 400px;
   position: relative;
-  min-height: 60px
 }
 
 .animated-item {
@@ -122,8 +121,9 @@ b, strong {
   line-height: inherit;
   display: block;
   opacity: 0;
-  overflow: visible;
-  position: absolute;
+  overflow: visible !important;
+  position: absolute !important;
+  width: 100%;
   top: 0;
   right: 0;
   left: 0;
@@ -530,11 +530,11 @@ b, strong {
 }
 @media (max-width: 580px) {
 	.animated-info {
-		min-width: 250px;
+		min-width: 280px;
 		min-height: 50px;
 	}
   .animated-item {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .custom-btn-group {
@@ -581,6 +581,7 @@ b, strong {
     vertical-align: top;
   }
 }
+
 
 
 
