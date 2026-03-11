@@ -111,8 +111,9 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 260px;
+  min-width: 300px;
   position: relative;
+  min-height: 60px
 }
 
 .animated-item {
@@ -568,3 +569,4 @@ b, strong {
     vertical-align: top;
   }
 }
+
