@@ -118,6 +118,7 @@ b, strong {
 
 .animated-item {
   color: #ffc200;
+  white-space: nowrap;
 }
 
 .animated-item {
@@ -519,7 +520,8 @@ b, strong {
 }
 @media (max-width: 580px) {
 	.animated-info {
-		min-width: 200px;
+		min-width: 250px;
+		min-height: 50px;
 	}
   .animated-item {
     font-size: 30px;
@@ -569,4 +571,5 @@ b, strong {
     vertical-align: top;
   }
 }
+
 
